@@ -9,7 +9,7 @@ from telegram.ext import (
 )
 
 # === CONFIG ===
-BOT_TOKEN = "8302669556:AAEGQZrl_X3LXWEIzp_hO6W3IPEl4DcGABU"  # <- Change this!
+BOT_TOKEN = ""  # <- Change this!
 CHANNELS = [
     ("@studyverse_network_sv", "https://t.me/studyverse_network_sv"),
     ("@studyverse_network", "https://t.me/studyverse_network")
