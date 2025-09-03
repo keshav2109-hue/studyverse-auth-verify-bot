@@ -9,13 +9,13 @@ from telegram.ext import (
 )
 
 # === CONFIG ===
-BOT_TOKEN = "8475934439:AAHlaKfYR3TUNserPFjSDRQPUXtJ9sXFH1M"  # <- Change this!
+BOT_TOKEN = "8302669556:AAEGQZrl_X3LXWEIzp_hO6W3IPEl4DcGABU"  # <- Change this!
 CHANNELS = [
     ("@studyverse_network_sv", "https://t.me/studyverse_network_sv"),
     ("@studyverse_network", "https://t.me/studyverse_network")
 ]
 SECRET_KEY = "STUDYVERSE2025"
-OWNER_LINK = "https://t.me/mr_bean_teddy_lover"
+OWNER_LINK = "https://t.me/Madhav_IzPro"
 SITE_LINK = "https://studyverse-network.netlify.app/auth.html"
 
 # === LOGGING ===
@@ -121,7 +121,7 @@ def main():
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(check_channels, pattern="check"))
     app.add_error_handler(error_handler)
-    print("🤖 Bot is live! @StudyVerseKey_bot")
+    print("🤖 Bot is live! @StudyVerse_Key_bot")
     app.run_polling()
 
 if __name__ == "__main__":
